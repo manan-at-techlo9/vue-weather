@@ -49,9 +49,7 @@ export default {
   data() {
     return {
       city: "faisalabad",
-      result: {},
       toggleIcon: "",
-      alldata: {},
       res: {},
       countryN: {},
       cityN: {},
@@ -148,12 +146,12 @@ export default {
 
         // console.log(this.toggleIcon);
       } catch (err) {
+        this.show = false;
         console.log(err.message);
       }
     },
     onclick() {
       this.load();
-      this.alldata === 200 ? (this.show = true) : (this.show = false);
       // this.toggle();
     },
   },
