@@ -32,7 +32,7 @@
           <p>
             <span class="feel"> Feel Like : {{ res.feels_like }}&#8451; </span
             >{{ " " }} ||
-            <span class="feel">Humidity : {{ res.humidity }}&#8451;</span>
+            <span class="feel">Humidity : {{ res.humidity }}</span>
           </p>
         </div>
       </template>
