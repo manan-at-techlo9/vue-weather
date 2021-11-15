@@ -6,6 +6,7 @@
         <input
           type="search"
           v-model="city"
+          @keyup.enter="onclick()"
           placeholder="&#128269; Search City"
         />
         <button @click="onclick()" class="btn">Search</button>
